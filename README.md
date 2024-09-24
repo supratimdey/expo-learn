@@ -11,11 +11,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```npm install react-native-paper
       npm install deepmerge
 
-
-
-   ## import the folloing to root layout file 
-
-   ```      
+     
    import {
    MD3LightTheme,
    adaptNavigationTheme,
@@ -57,7 +53,7 @@ export default function Layout() {
     CombinedDefaultTheme
   
     colorScheme === 'dark' ? CombinedDarkTheme : CombinedDefaultTheme
-    
+
   return (
     // wrap with paper provider to use the paper components
     // wrap with navigation theme provider to use the navigation components
